@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: #413870fa;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container{
+    text-align: center;
+    background-color: #9c88ff;
+    margin-left: 34pc;
+    margin-right: 35pc;
+    width: 30rem;
+    background-repeat: repeat-y;
+    overflow: hidden;
+    margin-top: 2pc;
+    
+}
+.mero{
+    display: block;
+    overflow: hidden;
+    width: 30rem; 
+    height: 32rem;  
+}
+.button1{
+    background-color: #f5f6fa;
+    border: none;
+    color: #353b48;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+    width: 150px;
+}
+.button1 >img{
+    width: 30px;
+    display: inline-block;
+    float: left;
+    height: 20px;
+
+}
+.button2{
+
+    width: 150px;
+    background-color: #54a0ff;
+    border: none;
+    color: #f5f6fa;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    margin: 14px 20px;
+    cursor: pointer;
+    border-radius: 15px;
+    text-decoration: none;
+}
+.button2 >img{
+    width: 20px;
+    display: inline-block;
+    float: left;
+    height: 20px;
+
+}
+.about-heading{
+    float: left;
+    margin-left: 1cm;
+}
+.about-p{
+    float:  left;
+    margin-left: 1cm;
+    text-align: justify;
+    background-color: #9c88ff;
+    margin-right: 1cm;
+}
